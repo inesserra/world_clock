@@ -15,6 +15,8 @@
   <body>
     <div class="container">
       <h1>World Clock</h1>
+      <!-- add hyperlink with / or index.html but it will show it in the link as href to go back to home page
+    or show a link at the bottom of the injected code-->
       <select
         name="timezones"
         id="timezones">
@@ -28,6 +30,16 @@
       <div id="cities">
         <div
           class="city"
+          id="lisbon">
+          <div>
+            <h2>Lisbon 🇵🇹</h2>
+            <div class="date"></div>
+          </div>
+          <div class="time"></div>
+        </div>
+
+        <div
+          class="city"
           id="los-angeles">
           <div>
             <h2>Los Angeles 🇺🇸</h2>
@@ -35,7 +47,6 @@
           </div>
           <div class="time"></div>
         </div>
-
         <div
           class="city"
           id="sydney">
@@ -47,6 +58,7 @@
         </div>
       </div>
     </div>
+
     <footer>
       This project was coded by <strong>Ines Serra</strong> and is
       <a
@@ -55,6 +67,7 @@
         >open sourced on Github</a
       >
     </footer>
+
     <script src="js/index.js"></script>
   </body>
 </html>
